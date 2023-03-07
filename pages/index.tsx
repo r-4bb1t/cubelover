@@ -4,8 +4,11 @@ import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
-    <div className="w-full flex flex-col items-center px-24 py-12">
-      <div>수상할 정도로 큐브를 사랑하는 이 시대 최고의 컴퓨터 천재</div>
+    <div className="w-full flex flex-col items-center lg:px-24 px-8 py-12">
+      <div className="text-center">
+        수상할 정도로 큐브를 사랑하는
+        <br className="lg:hidden" />이 시대 최고의 컴퓨터 천재
+      </div>
       <div className="font-bold text-4xl">Jeehak Yoon</div>
       <div className="ml-2 font-semibold text-2xl">(윤지학)</div>
 
