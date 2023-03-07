@@ -77,7 +77,7 @@ const Home: NextPage = () => {
       <div className="mb-4">※ 너무 많아 한 홈페이지에 다 담을 수 없었습니다. ※</div>
       <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-8">
         {articles.map((article, i) => (
-          <Link href={article.href} key={i} target="_blank">
+          <Link href={article.href} key={i}>
             <div className="w-full flex flex-col gap-2 cursor-pointer hover:scale-90 transition-all">
               <img src={article.image} className="h-56 object-cover" />
               <div className="font-bold text-xl">{article.title}</div>
